@@ -10,22 +10,41 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 55vh;
+  height: 70vh;
 }
 
 .nav {
+  height: 40%;
   display: flex;
   background-color: transparent;
+  justify-content: center;
 }
 
-.logoi{
-  height: 25%;
-  margin-left: 7%;
-  margin-top: 1%;
+.logoi {
+  margin-left: 50%;
+  display: block;
+  width: 130%;
+  height: auto;
 }
 
 
 
 .menu{
   display: flex;
+  margin-left: 40%;
+  padding-top: 1%;
+  width: 100%;
+  height: auto;
+}
+.menu a{
+
+  margin-top: 4%;
+  margin-right: 10%;
+  height: 30%;
+  font-size: 2.3vw;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #f53948;
+  text-decoration: none;
+
 }
