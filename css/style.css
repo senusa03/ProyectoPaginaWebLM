@@ -3,6 +3,7 @@
   margin: 0%;
 }
 
+/*CARA PRINCIPAL DE LA PÁGINA*/
 .div1{
     
   background-image: url("/img/Fondo\ 2.jpg");
@@ -10,8 +11,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 65vh;
+  height: 70vh;
 }
+
+/*ESTILOS PARA LA NAVBAR*/
 
 .nav {
   height: 30%;
@@ -38,9 +41,7 @@
   width: 100%;
   height: auto;
 }
-.menu a{
-  
-  border:yellow solid 1px ;
+.menu a {
   margin-top: 4%;
   margin-right: 10%;
   height: 30%;
@@ -49,11 +50,63 @@
   text-transform: uppercase;
   color: #f53949;
   text-decoration: none;
-
+  position: relative; /* Agregar posición relativa para elementos internos */
 }
 
-.menu a:hover{
-
-  color: #fff; 
-  background-color: #f53949; 
+.menu a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; /* Ajustar según el efecto */
+  left: 0;
+  width: 100%;
+  height: 2px; /* Ajustar según el efecto */
+  background-color: #f53949;
+  transform: scaleX(0);
+  transition: transform 0.3s;
+  transform-origin: bottom;
 }
+
+.menu a:hover::after {
+  transform: scaleX(1);
+}
+
+.menu a:hover {
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); /* Agregar sombra debajo de las letras */
+}
+
+/*INICIO*/
+
+.div2 {
+  display: flex;
+  height: 70vh;
+  background-color: rgb(212, 212, 212);
+}
+
+.izq {
+  border: 1px solid green;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 3%;
+  height: 60%;
+  width: 40%;
+  border-radius: 35px;
+  background-image: url("/img/kanyecbdhv.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.der {
+  border: 1px solid green;
+  border-radius: 35px;
+  width: 40%;
+  height: 60%;
+  margin-top: 5%;
+  transform: perspective(800px) rotateY(0deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+.der:hover {
+  transform: perspective(800px) rotateY(-10deg);
+}
+
