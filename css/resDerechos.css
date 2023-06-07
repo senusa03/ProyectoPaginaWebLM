@@ -1,12 +1,12 @@
 /*Fuente*/
 @font-face {
-  font-family: regular;
-  src: url("/fuentes/GothamLight.ttf") format('truetype');
+    font-family: OpenSans-Regular;
+    src: url(../Tipografía/OpenSans-Regular.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: negrita;
-  src: url("/fuentes/GothamBold.ttf") format('truetype');
+    font-family: OpenSans-Bold;
+    src: url(../Tipografía/OpenSans-Bold.ttf) format('truetype');
 }
 
 /*Body*/
@@ -26,7 +26,7 @@
 
   @media screen and (min-width: 767px) {
     .derechos-texto p {
-      font-size: 1.5vw;
+      font-size: 3vw;
     }
     .Titulo {
       font-size: 3vw;
