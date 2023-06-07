@@ -1,0 +1,9 @@
+@font-face {
+    font-family: regular;
+    src: url("/fuentes/GothamLight.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: negrita;
+    src: url("/fuentes/GothamBold.ttf") format('truetype');
+}
