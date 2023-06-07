@@ -1,12 +1,12 @@
 /*Fuente*/
 @font-face {
-    font-family: OpenSans-Regular;
-    src: url(../Tipografía/OpenSans-Regular.ttf) format('truetype');
+  font-family: regular;
+  src: url("/fuentes/GothamLight.ttf") format('truetype');
 }
 
 @font-face {
-    font-family: OpenSans-Bold;
-    src: url(../Tipografía/OpenSans-Bold.ttf) format('truetype');
+  font-family: negrita;
+  src: url("/fuentes/GothamBold.ttf") format('truetype');
 }
 
 /*Body*/

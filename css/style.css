@@ -20,8 +20,8 @@
 .nav {
   height: 25%;
   display: flex;
-  background-color: rgba(255, 255, 255, 0.13);
-  box-shadow: 0 0 50px rgba(255, 255, 255, 0.274);
+  background-color: rgba(255, 255, 255, 0.11);
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.233);
   justify-content: center;  
 }
 
