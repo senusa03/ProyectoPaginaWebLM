@@ -7,7 +7,7 @@
 .nav {
     height: 25%;
     display: flex;
-    background-color: rgba(56, 56, 56, 0.986);
+    background-color:#fff;
 
     justify-content: center;
 }
@@ -69,7 +69,7 @@
 }
 
 
-.div1{
+.div1 {
     padding-bottom: 3%;
 }
 
@@ -84,12 +84,15 @@
 
 /*SLIDES*/
 
-
+.tienda-ttl{
+    font-family: negrita;
+    font-size: 10vw;
+    opacity: 50%;
+}
 .container {
-    margin-top: 3%;
     width: 100%;
     height: 70vh;
-    background-color: lightgrey;
+    background-color: #fff;
 }
 
 
@@ -115,19 +118,20 @@
 }
 
 .slide1 {
-    background-image: url(/img/damn.jpg);
+    background-image: url(/img/kanye1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .slide2 {
-    background-image: url(/img/mrmorale.jpg);
+    background-image: url(/img/kanye2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .slide3 {
-    background-image: url(/img/tpab.jpg);
+    background-image: url(/img/kanye3.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -138,36 +142,64 @@
 
     margin-top: 9%;
     font-size: 12px;
-    color: white;
+    color: grey;
 }
 
 /*Cartas*/
 
-.down{
+.albu {
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    font-family: negrita;
+    font-size: 3vw;
+}
+
+.yeezy {
+    margin: 2%;
+    font-family: negrita;
+    font-size: 3vw;
+}
+
+.arriba {
     display: flex;
     margin-top: 3%;
     margin-right: 3%;
-    margin-left:3% ;
-    justify-content: space-between;
+    margin-left: 3%;
+    justify-content: space-around;
 }
 
-.cartas{
+.abajo {
+
+    display: flex;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-left: 3%;
+    justify-content: space-around;
+
+}
+
+.cartas {
     border: 1px solid #e4e4e4;
     border-radius: 5px;
 }
-.cuerpo-carta{
-    
+
+
+
+.cuerpo-carta {
+
     padding: 2%;
 }
 
-.titulo-carta{
+.titulo-carta {
 
     font-family: negrita;
     font-size: 1.4vw;
-    margin-bottom: 4%;
+    padding-bottom: 5%;
 }
 
-.txt-carta{
+
+.txt-carta {
 
     font-size: 1vw;
     margin-bottom: 4%;
@@ -175,19 +207,34 @@
 
 
 
+.boton{
 
-.Copyright{
+    border: #e4e4e4 1px solid;
+    border-radius: 15px;
+    padding:2%;
+    text-decoration: none;
+    margin-bottom: 10%;
+}
+
+.cuatro{
+    padding-bottom: 5%;
+}
+
+
+
+
+.Copyright {
 
     background-color: #1f1d1d;
     display: flex;
     padding-top: 2%;
     padding-bottom: 2%;
     justify-content: center center;
-  
-  }
-  
-  .Copyright p {
-  
+
+}
+
+.Copyright p {
+
     width: 25%;
     color: #f5f0ed;
     font-size: 1vw;
@@ -197,11 +244,11 @@
     padding-right: 0.5%;
     padding-left: 0.5%;
     padding-bottom: 0.5%;
-  
-  }
-  
-  .Copyright a{
-  
+
+}
+
+.Copyright a {
+
     border-radius: 20px;
     width: auto;
     color: #f5f0ed;
@@ -212,9 +259,9 @@
     padding-bottom: 0.5%;
     font-size: 1vw;
     text-decoration: none;
-  }
-  
-  .Copyright a:hover{
+}
+
+.Copyright a:hover {
     background-color: rgb(82, 80, 80);
-    
-  }
+
+}
