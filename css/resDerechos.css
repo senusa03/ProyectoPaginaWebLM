@@ -1,0 +1,38 @@
+/*Fuente*/
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../Tipografía/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../Tipografía/OpenSans-Bold.ttf) format('truetype');
+}
+
+/*Body*/
+
+@media screen and (max-width: 767px) {
+    .derechos-texto p {
+      font-size: 5vw;
+    }
+    .Titulo {
+      font-size: 7vw;
+    }
+    .logoi{
+      width: 30%;
+      height: auto;
+    }
+  }
+
+  @media screen and (min-width: 767px) {
+    .derechos-texto p {
+      font-size: 1.5vw;
+    }
+    .Titulo {
+      font-size: 3vw;
+    }
+    .logoi{
+      width: 10%;
+      height: auto;
+    }
+  }
