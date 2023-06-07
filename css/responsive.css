@@ -10,7 +10,7 @@
 
 @media (max-width: 768px) {
 
-/*MENU*/
+    /*MENU*/
 
     .logoi {
         margin-left: 1%;
@@ -18,34 +18,37 @@
         display: block;
         width: 20%;
         height: auto;
-      }
+    }
 
-    .topnav a:not(:first-child){
+    .topnav a:not(:first-child) {
         display: none;
     }
-    .topnav a.icon{
+
+    .topnav a.icon {
         float: right;
         display: block;
-        
+
     }
-  
-    .topnav.responsive{    
-        position:relative;
+
+    .topnav.responsive {
+        position: relative;
     }
-    .topnav.responsive .icon{
-        position:absolute;
+
+    .topnav.responsive .icon {
+        position: absolute;
         right: 0;
         top: 0;
     }
-    .topnav.responsive a{
+
+    .topnav.responsive a {
         font-size: 3vw;
         flex-direction: column;
         float: none;
-        display:block;
+        display: block;
         text-align: left;
     }
 
-/*RESTO*/
+    /*RESTO*/
 
     .div2 {
         flex-direction: column;
@@ -136,30 +139,36 @@
         display: block;
         width: 30%;
         height: auto;
-      }
+    }
 
-    .topnav a:not(:first-child){
+
+
+    .topnav a:not(:first-child) {
         display: none;
     }
-    .topnav a.icon{
+
+    .topnav a.icon {
         float: right;
         display: block;
-        
+
     }
-  
-    .topnav.responsive{    
-        position:relative;
+
+    .topnav.responsive {
+        position: relative;
+
     }
-    .topnav.responsive .icon{
-        position:absolute;
+
+    .topnav.responsive .icon {
+        position: absolute;
         right: 0;
         top: 0;
     }
-    .topnav.responsive a{
+
+    .topnav.responsive a {
         padding-right: 5%;
         font-size: 5vw;
         float: none;
-        display:block;
+        display: block;
         text-align: left;
     }
 
